@@ -1,0 +1,23 @@
+{
+  "name": "fapor",
+  "version": "1.0.0",
+  "description": "Higher Order Maintenance of Function",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/md-miraz-uddin/node-fapor.git"
+  },
+  "author": "Md. Miraz Uddin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/md-miraz-uddin/node-fapor/issues"
+  },
+  "homepage": "https://github.com/md-miraz-uddin/node-fapor#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.13"
+  }
+}
