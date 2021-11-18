@@ -1,5 +1,5 @@
 # nodejs-practice002
-This is a Calculator project where we see different uses of Functions
+This is a Calculator project where we see different uses of Arithmetic Calculations
 
 # What inside
 > Versatile Use of Functions
@@ -18,6 +18,9 @@ This is a Calculator project where we see different uses of Functions
 >
 > 
 > Use of Robot Voice
+>
+> 
+> Multiplication Table
 >
 > And Many More ...
 
@@ -43,6 +46,6 @@ This is a Calculator project where we see different uses of Functions
 >> nodemon
 >
 > Go to Browser
->> Visit http://localhost:3000
+>> Visit http://localhost:2786
 >>
 > Sit, Relax & Enjoy Coding

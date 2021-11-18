@@ -72,12 +72,14 @@
         </div>
       </div>
 
-      <hr>
-      <hr>
+      <hr />
+      <hr />
 
       <div class="row mt-5">
         <div class="col-12">
-          <h2 class="text-center font-weight-bold text-primary">Even / ODD (ROBOT VOICE) </h2>
+          <h2 class="text-center font-weight-bold text-primary">
+            Even / ODD (ROBOT VOICE)
+          </h2>
         </div>
       </div>
       <div class="row mt-3">
@@ -116,6 +118,55 @@
         <div class="col-12 mx-auto">
           <h5 id="result_text">Result :</h5>
           <div id="output_even_odd"></div>
+        </div>
+      </div>
+
+      <hr />
+      <hr />
+      <hr />
+
+      <div class="row mt-5">
+        <div class="col-12">
+          <h2 class="text-center font-weight-bold text-primary">
+            Multiplication Table
+          </h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6 m-auto">
+          <label for="multiplication_table" class="form-label">Table</label>
+          <select id="multiplication_table" class="form-select"></select>
+        </div>
+      </div>
+      <div class="row mt-3">
+        <div class="col-6 d-flex justify-content-between m-auto">
+          <div class="left">
+            <label for="table_start" class="form-label">Start</label>
+            <input
+              type="number"
+              class="form-control"
+              id="table_start"
+              placeholder="e.g: 1"
+              min="1"
+            />
+          </div>
+          <div class="right">
+            <label for="table_end" class="form-label">End</label>
+            <input
+              type="number"
+              class="form-control"
+              id="table_end"
+              placeholder="e.g: 10"
+              min="1"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-5">
+        <div class="col-6 m-auto">
+          <h5>Table</h5>
+          <ul id="multiplication_table_output"></ul>
         </div>
       </div>
     </div>
