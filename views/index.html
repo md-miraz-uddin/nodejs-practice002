@@ -68,7 +68,54 @@
       <div class="row mt-5">
         <div class="col-6 m-auto">
           <h5>Result :</h5>
-          <div id="output"></div>
+          <div id="output_calculator"></div>
+        </div>
+      </div>
+
+      <hr>
+      <hr>
+
+      <div class="row mt-5">
+        <div class="col-12">
+          <h2 class="text-center font-weight-bold text-primary">Even / ODD (ROBOT VOICE) </h2>
+        </div>
+      </div>
+      <div class="row mt-3">
+        <div class="col-6 d-flex justify-content-between m-auto">
+          <div class="left">
+            <label for="start" class="form-label">Start Point</label>
+            <input
+              type="number"
+              class="form-control"
+              id="start"
+              placeholder="e.g: 1"
+            />
+          </div>
+          <div class="right">
+            <label for="end" class="form-label">End Point</label>
+            <input
+              type="number"
+              class="form-control"
+              id="end"
+              placeholder="e.g: 10"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-5">
+        <div class="col-10 col-sm-8 col-md-5 col-lg-4 m-auto">
+          <select name="" id="even_odd" class="form-select form-select-lg">
+            <option value="even" selected>EVEN Numbers Only</option>
+            <option value="odd">ODD Numbers Only</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="row mt-5">
+        <div class="col-12 mx-auto">
+          <h5 id="result_text">Result :</h5>
+          <div id="output_even_odd"></div>
         </div>
       </div>
     </div>
